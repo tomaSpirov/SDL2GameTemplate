@@ -1,0 +1,91 @@
+# ============================
+# Build folders
+# ============================
+build/
+out/
+bin/
+lib/
+
+# ============================
+# CMake generated files
+# ============================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+*.cmake.user
+*.cmake.api/
+*.ninja
+*.ninja_deps
+*.ninja_log
+
+# ============================
+# Visual Studio files
+# ============================
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.vs/
+.vscode/
+*.opensdf
+*.sdf
+*.cachefile
+*.db
+*.opendb
+*.VC.db
+*.VC.opendb
+
+# ============================
+# Windows / MSVC build outputs
+# ============================
+*.obj
+*.o
+*.pdb
+*.idb
+*.ilk
+*.exe
+*.dll
+*.lib
+*.exp
+*.manifest
+*.ipdb
+*.iobj
+
+# ============================
+# SDL2 FetchContent downloads
+# ============================
+external/sdl2/*/
+external/sdl2/*-build/
+external/sdl2/*-src/
+external/sdl2/_deps/
+
+# ============================
+# Logs / temp files
+# ============================
+*.log
+*.tmp
+*.temp
+
+# ============================
+# Editor / OS files
+# ============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================
+# User-specific config
+# ============================
+*.user
+*.userprefs
+*.swp
+*.swo
+
+# ============================
+# Ignore packaged releases
+# ============================
+*.zip
+*.7z
+*.tar
+*.tar.gz
