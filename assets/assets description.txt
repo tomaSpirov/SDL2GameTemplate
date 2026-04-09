@@ -1,0 +1,8 @@
+here in assets folder you can organize and place all your game assets.
+for example:
+assets/sounds/
+assets/music/
+assets/fonts/
+assets/images/
+assets/sprites/
+... 
