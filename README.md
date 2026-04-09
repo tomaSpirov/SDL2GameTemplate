@@ -1,8 +1,8 @@
-\# SDL2 Game Template (C++/CMake/Visual Studio 2022/Windows 11 x64)
+# SDL2 Game Template (C++/CMake/Visual Studio 2022/Windows 11 x64)
 
 
 
-\## Info
+## Info
 
 A modern, reusable SDL2 game template for C++ projects with automatic download and setup of:
 
@@ -22,11 +22,10 @@ This template is designed to be cloned and reused every time you start a new gam
 
 Prepared and tested on Windows 11 x64 using Visual Studio 2022.
 
+---
 
 
-\## Project Structure
-
-
+## Project Structure
 
 The engine folder contains the SDL2 initialization layer.
 The game folder uses the engine and contains your game logic.
@@ -34,9 +33,10 @@ The game folder uses the engine and contains your game logic.
 This structure is powerful and clean, allowing you to build your own custom engine while keeping
 game logic separate.
 
+---
 
 
-\## Features
+## Features
 
 * Clean project structure  
 Only rename the main folder (SDL2GameTemplate) when starting a new project.
@@ -55,67 +55,58 @@ Everything is handled automatically.
 CMake generates the entire solution.
 No manual project editing required.
 
+---
 
-
-\## How to use
-
+## How to use
 
 
 1. Download this template from GitHub.
+
 2. (Optional) Rename the template folder.  
 Rename SDL2GameTemplate to your new project name.
+
 3. (Skip this step if you did NOT rename the folder in step 2.)  
 Edit the root CMakeLists.txt:  
-Change:
-project(SDL2GameTemplate)
-To:
-project(MyNewGame)
+Change project(SDL2GameTemplate) to project(MyNewGame)
+
 4. Open a command prompt.
+
 5. Move to the project folder:
-cd SDL2GameTemplate
-or:
-cd MyNewGame
+cd SDL2GameTemplate or cd MyNewGame
+
 6. Create a build folder:
 mkdir build
+
 7. Move to the build folder:
 cd build
+
 8. Generate the Visual Studio solution:
 cmake -G "Visual Studio 17 2022" ..
-
 
 
 Note: The ".." (two dots) is important — it tells CMake to use the parent folder
 where the main CMakeLists.txt is located.
 
 
-
-
-
-9\. Build (Debug):
-
+9. Build (Debug):
 cmake --build . --config Debug
 
 
-
-10\. Run the game:
+10. Run the game:
 build/game/Debug/game.exe
 
 
-
-9\. Build (Release):
-
+9. Build (Release):
 cmake --build . --config Release
 
 
-
-10\. Run the game:
+10. Run the game:
 build/game/Release/game.exe
 
+---
 
 
-\## Clean Rebuild
-
-
+## Clean Rebuild
 
 If you need a fresh build:
 
@@ -125,7 +116,7 @@ Repeat steps 6–10.
 
 
 
-\## License
+## License
 
 This template is free to use for any personal or commercial project.
 

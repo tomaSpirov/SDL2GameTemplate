@@ -10,6 +10,22 @@ This project follows **semantic versioning**:
 
 ---
 
+## [1.0.3] – Documentation & Contribution Policy Update
+
+### Changed
+- Updated `README.md`.
+- Updated `CHANGELOG.md`
+
+
+
+## [1.0.2] – Documentation & Contribution Policy Update
+
+### Changed
+- Updated `README.md`.
+- Updated `CONTRIBUTING.md`
+
+---
+
 ## [1.0.1] – Documentation & Contribution Policy Update
 
 ### Changed
