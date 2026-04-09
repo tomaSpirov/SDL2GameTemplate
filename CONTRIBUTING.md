@@ -1,6 +1,6 @@
-====================================
-= Contributing to SDL2GameTemplate =
-====================================
+
+# Contributing to SDL2GameTemplate 
+
 
 Thank you for your interest in contributing to this template.
 
@@ -13,9 +13,8 @@ All contributions must focus only on **automation improvements**, including futu
 
 ---
 
-================
-= Requirements =
-================
+## Requirements =
+
 
 To build and work with this template, you need:
 
@@ -30,16 +29,15 @@ Linux and macOS support is planned through cross‑platform CMake automation.
 
 ---
 
-=====================
-= Project Structure =
-=====================
+## Project Structure 
+
 
 SDL2GameTemplate/
-├─ assets/          # Game assets (images, audio, fonts…)
-├─ engine/          # Engine layer (must remain unchanged)
-├─ game/            # Game entry point (must remain unchanged)
-├─ external/sdl2/   # Auto-downloaded SDL2 sources + builds
-└─ CMakeLists.txt   # Root build script (automation logic lives here)
+--- assets/           Game assets (images, audio, fonts…)
+--- engine/           Engine layer (must remain unchanged)
+--- game/             Game entry point (must remain unchanged)
+--- external/sdl2/    Auto-downloaded SDL2 sources + builds
+--- CMakeLists.txt    Root build script (automation logic lives here)
 
 
 ---
@@ -51,9 +49,9 @@ The engine and game folders must remain untouched.
 
 ---
 
-==================================
-= Building the Project (Windows) =
-==================================
+
+## Building the Project (Windows) 
+
 
 ### 1. Create a build folder
 
@@ -79,18 +77,18 @@ All required DLLs are copied automatically.
 
 ---
 
-====================
-= Running the Game =
-====================
+
+## Running the Game 
+
 
 Make sure your working directory is the project root so assets load correctly.  
 Visual Studio is already configured to do this.
 
 ---
 
-====================================
-= Cross‑Platform Support (Planned) =
-====================================
+
+## Cross‑Platform Support (Planned)
+
 
 Future updates will include:
 
@@ -104,9 +102,9 @@ Contributions in these areas are welcome.
 
 ---
 
-==================================
-= What Contributions Are Allowed =
-==================================
+
+## What Contributions Are Allowed 
+
 
 Only improvements related to **automation** are accepted:
 
@@ -121,13 +119,12 @@ Only improvements related to **automation** are accepted:
 ### Not Allowed
 - will be added after the first release if any.
  
-The engine and game code must remain untouched so the template stays simple and ready to use.
+Note: The engine and game code must remain untouched so the template stays simple and ready to use.
 
 ---
 
-==========================
-= Updating SDL2 Versions =
-==========================
+## Updating SDL2 Versions 
+
 
 To update SDL2 or its extensions:
 
@@ -137,9 +134,9 @@ To update SDL2 or its extensions:
 4. Reconfigure CMake
 
 ---
-====================
-= Reporting Issues =
-====================
+
+## Reporting Issues 
+
 
 If you encounter a problem:
 
@@ -151,9 +148,8 @@ If you encounter a problem:
 
 ---
 
-=================
-= Pull Requests =
-=================
+## Pull Requests 
+
 
 If you fork this template and improve the automation:
 
